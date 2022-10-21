@@ -1,0 +1,19 @@
+{% extends 'todo/layouts.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="contenedor_home">
+<h2 class="titulo-tareas">MIS TAREAS</h2>
+<ul>
+    {% for tarea in tareas %}
+    <li class="lista-tareas"> 
+        {{tarea}} 
+    </li>
+    <button type="button" class="boton_home btn btn-danger"><a href="{% url 'eliminar' tarea.id %}">Eliminar</a> </button>
+    <button type="button" class="boton_home btn btn-warning"><a href="{% url 'editar' tarea.id %}">Editar</a> </button>
+    {% endfor %}
+</ul>
+</div>
+
+{% endblock %}

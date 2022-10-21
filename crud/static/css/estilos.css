@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #c0c0aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0%;
+    padding-left: 0%;
+}
+
+input {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+
+}
+
+.lista-tareas {
+    text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 3%;
+    padding-top: 10%;
+}
+
+.formulario {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(178, 236, 255);
+}
+
+.estilos-generales {
+    color: white;
+}
+
+.contenedor_home {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: #1c1c1c;
+    align-items: center;
+    margin-top: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    justify-content: center;
+}
+
+.boton_home {
+    font-size: 1rem;
+    color: white;
+
+}
+
+.boton_agregar {
+    color: white;
+}
+
+select {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-danger {
+    background-color: #ee8a54;
+    border-color: none;
+}
+
+.btn-warning {
+    background-color: #15a3db;
+    border-color: none;
+}
+
+.btn-warning:hover {
+    background-color: #59d0ff;
+    border-color: none;
+}
+
+.btn-danger:hover {
+    background-color: #ffa45e;
+    border-color: none;
+}

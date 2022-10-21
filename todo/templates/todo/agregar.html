@@ -1,0 +1,9 @@
+{% extends 'todo/layouts.html' %}
+{% block content %}
+
+<form class="formulario" method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <button class="boton_agregar btn btn-warning">Agregar tarea</button>
+</form>
+{% endblock %}
